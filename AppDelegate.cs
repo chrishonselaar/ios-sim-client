@@ -20,7 +20,7 @@ namespace SimulatorLaunchSample
 			mainWindowController = new MainWindowController ();
 			mainWindowController.Window.MakeKeyAndOrderFront (this);
 
-			StartSim(false, "/Users/chrishonselaar/Projects/TestRecording/TestRecording/bin/iPhoneSimulator/Debug/TestRecording.app");
+			StartSim(false, "[path to the .app you wish to launch on the simulator]");
 		}
 				
 		private bool StartSim(bool iPad, string appPath)
